@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+}
+.wrapper{
+    background: url(./pexels.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+nav ul li img{
+    width: 70px;
+}
+.Middle-side{
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.Middle-side h1{
+    /* text-align: center; */
+    color: #f6b724;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Climate Crisis', cursive;
+
+}
+nav ul li button{
+    align-items: center;
+    justify-content: center;
+}
+.read-button{
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(252, 251, 249);
+    font-weight: 600;
+    border: none;
+    background-color: #ee3d07;
+    border-radius: 10px;
+}
+.orderbutton{
+    padding: 15px 20px;
+    float: right;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 18px;
+    color: rgb(253, 252, 251);
+    font-weight: 600;
+    border: none;
+    background-color: #de2c09;
+    border-radius: 10px;
+}
